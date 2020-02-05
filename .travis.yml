@@ -4,6 +4,7 @@ python: "3.7"
 
 script:
   echo "Hola mundo con travis-ci"
+  python test.py -v
 
 notifications:
   email: false
